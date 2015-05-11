@@ -206,6 +206,7 @@ a prova di spam come definito nella lezione 2.
 Si invita inoltre a cercare di scomporre il problema in più funzioni che si
 possano riutilizzare in futuro.
 
+[soluzione](http://jsbin.com/waxego/2/edit?html,js,output)
 
 ----
 
@@ -217,6 +218,7 @@ che restituisca il valore calcolato della potenza.
 
 Si invita inoltre a cercare di risolvere il problema in maniera ricorsiva.
 
+[soluzione](http://jsbin.com/comev/1/edit?html,js,output)
 
 ----
 
@@ -226,3 +228,5 @@ Scacchiera bis
 Scrivere una funzione scacchiera che prenda in input un valore di altezza ed
 uno di larghezza e restituisca una stringa contenente una scacchiera di tali
 dimensioni.
+
+[soluzione](http://jsbin.com/kaxepa/1/edit?html,js,output)

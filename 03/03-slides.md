@@ -235,6 +235,7 @@ Scacchiera
 Scrivere un programma che stampi in console una scacchiera 8x8, dove le caselle
 nere sono rappresentate dal simbolo [#] e quelle bianche dal simbolo [ ]
 
+[soluzione](http://jsbin.com/guxexo/4/edit?html,js,output)
 
 ----
 
@@ -250,6 +251,7 @@ Ottobre -> Quarto trimestre
 
 mAgGio -> Secondo Trimestre
 
+[soluzione](http://jsbin.com/fumagi/1/edit?html,js,output)
 
 ----
 
@@ -264,6 +266,7 @@ Es. 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16,
 
 Un grande classico della programmazione
 
+[soluzione](http://jsbin.com/kukega/1/edit?html,js,output)
 
 ----
 
@@ -275,3 +278,5 @@ Es. andrea -> AndrEA
 
 Per quanto vi siano soluzioni semplici ma tediose, si consiglia di sbirciare
 tra le funzioni di stringhe ed array per trovare una soluzione elegante.
+
+[soluzione](http://jsbin.com/kajujo/1/edit?html,js,output)

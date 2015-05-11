@@ -160,6 +160,7 @@ var axyz = new Person(
 console.log(axyz.mail); // axyzxp[at]gmail[dot]com
 ```
 
+[soluzione](http://jsbin.com/bimaze/1/edit?html,js,output)
 
 ----
 
@@ -173,3 +174,5 @@ var cinque = new N(5);
 console.log(cinque.fact()); // 120
 console.log(cinque.pow(2)); // 25
 ```
+
+[soluzione](http://jsbin.com/zecufu/2/edit?html,js,output)

@@ -37,7 +37,7 @@ alert('Hello World!');
 
 index.html:
 ```HTML
-<script src="index.js" />
+<script src="index.js" >< /script>
 ```
 
 
@@ -53,7 +53,7 @@ console.log('Hello World!');
 
 index.html:
 ```HTML
-<script src="index.js" />
+<script src="index.js" >< /script>
 ```
 
 
