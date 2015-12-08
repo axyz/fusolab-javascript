@@ -31,7 +31,7 @@ httpRequest.onreadystatechange = function () {
 }
 httpRequest.open('GET', 'url');
 httpRequest.send();
-
+```
 
 ----
 
