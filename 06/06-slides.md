@@ -115,7 +115,7 @@ var sum = function (x, y) { return x + y; };
 bind
 ----
 La funzione bind può essere applicata ad altre funzioni ed ha un doppio scopo:
-il primo argomento passato sostituirà il this nella funzione, mentre i suggessivi
+il primo argomento passato sostituirà il this nella funzione, mentre i successivi
 argomenti saranno i primi argomenti della funzione.
 
 Un uso tipico è quello di creare funzioni con i primi argomenti già impostati
