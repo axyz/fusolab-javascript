@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="jquery.js"></script>
+
+    <style>
+    body{
+      background: #efefef;
+    }
+    div.quadrato {
+      width: 100px;
+      height: 100px;
+      float: left;
+      background-color: #ffffff;
+      font-family: arial;
+      font-size:21px;
+      color:#000000;
+    }
+    div.nero{background-color: #000000;color:#ffffff;}
+    div.clear{
+      clear: both;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="cornice">
+    </div>
+<script>
+//$("#cornice").html("Ciao");
+function doScacchi(cols,rows){
+  var totScacchi = cols*rows;
+  var rowNumber = 0
+  var colNumber = 1
+  for(var i=1;i<=totScacchi;i++){
+
+    var className = "bianco";
+    if(i%2==0){
+      var className = "nero";
+    }
+
+    var letter = String.fromCharCode( parseInt(97 + rowNumber));
+
+    $("#cornice").append('<div class="quadrato '+className+'" id="'+i+'">'+ letter + ' ' + colNumber +'</div>');
+
+    colNumber ++;
+
+    if(i%cols==0){
+      $("#cornice").append('<div class="clear"></div>');
+      rowNumber ++;
+      colNumber = 0;
+    }
+  }
+}
+
+doScacchi(3,3);
+</script>
+  </body>
+</html>
