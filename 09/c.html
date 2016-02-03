@@ -9,40 +9,61 @@
     body{
       background: #efefef;
     }
-    div.quadrato {
-      width: 100px;
-      height: 100px;
+    div.quadrato  {
+      /*width: 100px;
+      height: 100px;*/
       float: left;
       background-color: #ffffff;
       font-family: arial;
       font-size:21px;
       color:#000000;
+      position: relative;
+
     }
+    div.quadrato div{
+      position: absolute;
+      top: 5px;
+      left:5px;
+    }
+
     div.nero{background-color: #000000;color:#ffffff;}
     div.clear{
       clear: both;
+    }
+    #cornice{
+      width: 50%;
     }
     </style>
   </head>
   <body>
     <div id="cornice">
     </div>
+
 <script>
 //$("#cornice").html("Ciao");
 function doScacchi(cols,rows){
   var totScacchi = cols*rows;
   var rowNumber = 0
   var colNumber = 1
+  var w=100/cols;
   for(var i=1;i<=totScacchi;i++){
 
-    var className = "bianco";
-    if(i%2==0){
-      var className = "nero";
+    var colore = ["bianco","nero"];
+    if(rowNumber%2==0 && cols%2==0){
+      var colore = ["nero","bianco"];
+    }
+    //alert(className);
+    var className = colore[0];
+    //if(i%2==0 && rowNumber%2==0){
+    if(i%2==0 ){
+      var className = colore[1];
     }
 
-    var letter = String.fromCharCode( parseInt(97 + rowNumber));
 
-    $("#cornice").append('<div class="quadrato '+className+'" id="'+i+'">'+ letter + ' ' + colNumber +'</div>');
+
+    var letter = String.fromCharCode( parseInt(97 + rowNumber));
+    var casella = letter + ' ' + colNumber;
+    $("#cornice").append('<div class="quadrato '+className+'" id="'+i+'" style="width:'+w+'%;padding-bottom:'+w+'%;"><div>'+casella+'</div></div>');
 
     colNumber ++;
 
@@ -54,7 +75,7 @@ function doScacchi(cols,rows){
   }
 }
 
-doScacchi(3,3);
+doScacchi(5,5);
 </script>
   </body>
 </html>
