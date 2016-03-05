@@ -15,7 +15,7 @@ https://github.com/webpro/reveal-md
 npm install -g reveal-md
 ```
 
-
+## Clonazione del repository delle slide
 Con il comando 
 
 ``` bash
