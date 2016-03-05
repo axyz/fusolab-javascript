@@ -32,6 +32,7 @@
     }
     #cornice{
       width: 50%;
+      margin:0 auto;
     }
     </style>
   </head>
@@ -70,12 +71,12 @@ function doScacchi(cols,rows){
     if(i%cols==0){
       $("#cornice").append('<div class="clear"></div>');
       rowNumber ++;
-      colNumber = 0;
+      colNumber = 1;
     }
   }
 }
 
-doScacchi(5,5);
+doScacchi(8,8);
 </script>
   </body>
 </html>
