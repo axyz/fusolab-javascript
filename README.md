@@ -6,7 +6,14 @@ cosi potete installare reveal-md usando questo repository:
 
 https://github.com/webpro/reveal-md 
 
-Per installare reveal-md seguire le informazioni presenti nel Readme del repo.
+## reveal-md
+[reveal.js](http://lab.hakim.se/reveal-js/#/) 
+
+### Installazione
+
+``` bash
+npm install -g reveal-md
+```
 
 
 Con il comando 
